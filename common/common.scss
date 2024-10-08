@@ -346,15 +346,10 @@ input[type="color"] {
 
 // misc
 
-.item {
-  div.image {
-    min-width: 50px;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .flag-main a {
-    background-image: url($flag-main);
+.flag-main a {
+  height: 150px;
+  width: 100px;
+  background-image: url($flag-main);
   }
 }
 

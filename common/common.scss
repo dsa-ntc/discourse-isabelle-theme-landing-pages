@@ -10,7 +10,16 @@
 @import "sidebar";
 @import "chat";
 
+// fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 // global
+
+html {
+  font-family: 'Nunito', sans-serif;
+}
+
 .alert.alert-info {
   background: $sand;
   border-radius: 15px;

@@ -120,6 +120,12 @@ input[type="color"] {
   padding: 0.75em 1em;
   border-radius: 25px;
   box-shadow: 0 4px 0 0 darken($love, 25%);
+  a:link, a:visited {
+    color: white;
+  }
+  a:hover, a:active {
+    color: #015562;
+  }
 }
 
 .btn-danger {

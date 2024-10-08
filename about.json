@@ -2,7 +2,9 @@
   "name": "Isabelle",
   "about_url": null,
   "license_url": null,
-  "assets": {},
+  "assets": {
+    "flag-main": "/assets/flag-main.png"
+  },
   "color_schemes": {
     "isabelle": {
       "primary": "00333d",

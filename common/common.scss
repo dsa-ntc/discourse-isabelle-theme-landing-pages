@@ -346,6 +346,18 @@ input[type="color"] {
 
 // misc
 
+.item {
+  div.image {
+    min-width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .flag-main div.image {
+    background-image: url($flag-main-page);
+  }
+}
+
 .top-lists {
   background: $sand;
 }

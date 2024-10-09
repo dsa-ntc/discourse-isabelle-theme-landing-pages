@@ -301,6 +301,10 @@ input[type="color"] {
   }
 }
 
+.container {
+  justify-content: space-between;
+}
+
 .nav-pills > li > a {
   padding: calc(0.65em + 1px) 1em; // account for border
   @include border-radius-large;
@@ -680,6 +684,7 @@ div.edit-category .edit-category-title {
   span {
     color: currentColor;
   }
+  
 
   @media (max-width: 800px) {
     .container {

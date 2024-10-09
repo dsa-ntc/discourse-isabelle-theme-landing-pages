@@ -641,10 +641,6 @@ div.menu-links-header .menu-links-row button:not(.active):hover {
   padding: 0;
 }
 
-.container {
-  display: flex
-}
-
 .about .controls .btn {
   margin-top: 0.5em !important;
 }
@@ -683,5 +679,11 @@ div.edit-category .edit-category-title {
   .d-icon,
   span {
     color: currentColor;
+  }
+
+  @media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+    }
   }
 }

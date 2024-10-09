@@ -16,6 +16,11 @@
   }
 }
 
+.container {
+  flex-direction: column;
+  width: 100%;
+}
+
 .list-controls {
   margin: 10px 0 0;
 }

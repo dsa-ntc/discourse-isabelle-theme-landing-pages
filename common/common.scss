@@ -641,6 +641,10 @@ div.menu-links-header .menu-links-row button:not(.active):hover {
   padding: 0;
 }
 
+.container {
+  display: flex
+}
+
 .about .controls .btn {
   margin-top: 0.5em !important;
 }

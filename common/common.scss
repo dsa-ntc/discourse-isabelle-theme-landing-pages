@@ -513,7 +513,7 @@ input[type="color"] {
   border: 2px solid darken($love, 25%);
   border-top: none;
   text-color: $sand;
-  padding: .5em;
+  padding: 0 em .5em 0em .5em;
   justify-content: center;
 
   @include border-radius-large;

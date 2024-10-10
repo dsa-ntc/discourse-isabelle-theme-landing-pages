@@ -509,6 +509,18 @@ input[type="color"] {
   background: $secondary;
 }
 
+.container-important {
+  border: 2px solid darken($love, 25%);
+  border-top: none;
+  text-color: $sand;
+  padding: .25em;
+
+  @include border-radius-large;
+  box-shadow: 0 5px 0 0 darken($love, 25%);
+  border-top: none;
+  background: $love;
+}
+
 .user-main .staff-counters {
   border-radius: 10px 10px 0 0;
   margin-bottom: 0;

@@ -507,6 +507,16 @@ input[type="color"] {
   box-shadow: 0 5px 0 0 $mud;
   border-top: none;
   background: $secondary;
+    
+}
+
+.list-safety {
+  list-style: none;
+}
+
+.list-safety li:before {
+  content: "\1F6A8";
+  margin: 0 12px 0 0;
 }
 
 .container-important {

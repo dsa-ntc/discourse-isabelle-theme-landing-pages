@@ -121,7 +121,7 @@ input[type="color"] {
   border-radius: 25px;
   box-shadow: 0 4px 0 0 darken($love, 25%);
   a:link, a:visited {
-    color: #f1e9d5;
+    color: #f1e9d5 !important;
     text-decoration: none;
   }
   a:hover, a:active {

@@ -76,6 +76,15 @@ input[type="color"] {
   margin: 0 10px 0 0;
 }
 
+.list-lit {
+  list-style: none;
+}
+
+.list-lit li:before {
+  content: "\1F4DC";
+  margin: 0 10px 0 0;
+}
+
 // buttons
 .admin-controls button,
 .admin-controls label.btn,

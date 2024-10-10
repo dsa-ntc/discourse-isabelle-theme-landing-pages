@@ -303,6 +303,15 @@ input[type="color"] {
 
 .container {
   justify-content: space-between;
+
+  a:link, a:visited {
+    color: #68c6b9;
+    text-decoration: none;
+  }
+  a:hover, a:active {
+    color: #f1e9d5;
+    text-decoration: none;
+  }
 }
 
 .nav-pills > li > a {
